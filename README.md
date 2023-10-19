@@ -66,7 +66,7 @@ Clone the ProyectoAppComida repository from GitHub into your working directory:
 ```sh
 bash
 Copy code
-git clone [https://github.com/AdrianArmasRincon/AngularFrontendFood.git](https://github.com/AdrianArmasRincon/AngularFrontendFood.git)
+git clone https://github.com/AdrianArmasRincon/AngularFrontendFood.git
 ```
 
 Navigate to the Project Directory:
