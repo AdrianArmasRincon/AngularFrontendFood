@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/frontend/src/assets/css/your-styles.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="app-header myBg">
+    <!-- Left Menu -->
+    <div class="menu">       
+        <a>
+        <img src="../../../assets/img/menubg.PNG" alt="app-menu" class="app-menu" (click)="mostrarLista = !mostrarLista"/>
+        <div class="menuPosition">
+          <app-menu *ngIf="mostrarLista"></app-menu>
+        </div>
+      </a>
+    </div>
+    <!-- Middle Logo -->
+    <div>
+      <a routerLink="/home">
+        <img src="../../../assets/img/logo.PNG" alt="logo" class="app-logo"/>
+      </a>
+    </div>
+    <!-- Right Login Button -->
+    <div>
+      <a>
+        <img src="../../../assets/img/loginbg.png" alt="loginbg" class="loginbg"  (click)="mostrarLogin = !mostrarLogin"/>
+        <div class="loginPosition">
+          <app-log-in *ngIf="mostrarLogin"></app-log-in>
+        </div>
+      </a>
+    </div>
+  </header>
+</body>
+</html>

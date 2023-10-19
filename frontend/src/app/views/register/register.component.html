@@ -1,0 +1,29 @@
+<app-header></app-header>
+
+<div>
+    <br><br><br>
+    <div class="mainContainer">
+      <form id="miFormulario">
+        <div class="mainContainer">
+            <div>
+                <h1>Name:</h1>
+                <input type="text" class="cuadro-texto" name="username" formControlName="username" id="username" required>
+            </div>
+            <br><br>
+            <div>
+                <h1>Password:</h1>
+                <input type="password" class="cuadro-texto" formControlName="password"  name="password" id="password" required>
+            </div>
+            <br><br>
+            <div>
+                <h1>Email:</h1>
+                <input type="email" class="cuadro-texto" name="email" formControlName="email" id="email" required>
+            </div>
+            <div class="boton-container">
+              <button type="submit" class="boton">      
+                  <span class="boton-texto" (click)="mySubmit()">Register</span>
+              </button> 
+            </div>
+        </div>
+    </form>
+  </div>

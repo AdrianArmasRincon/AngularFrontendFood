@@ -1,0 +1,32 @@
+<app-header></app-header>
+
+<body>
+  <br>
+    <h1 class="myMargin">Platos populares</h1>
+    <!-- SLIDER -->
+    <div class="slideshow-container">
+      <div class="mySlides fade" *ngFor="let slide of slides; let i = index" [ngStyle]="{'display': i === slideIndex ? 'block' : 'none'}">
+        <img [src]="slide" style="width: 100%">
+      </div>
+    </div>
+    <br>  
+
+    <div style="text-align: center">
+      <span class="dot" *ngFor="let dot of [1, 2, 3]; let i = index" (click)="currentSlide(i + 1)" [ngClass]="{'active': i + 1 === slideIndex}"></span>
+    </div>
+      <!-- Parrafo -->
+      <p class="myMargin">
+        Esta selección de platos recoge los platos más pedidos por nuestros clientes.
+      </p>
+    
+      <p class="myMargin">
+        Apoyamos la materia prima local,
+        el kilómetro cero apoya a nuestra economía y asegura las mejores condiciones del producto y de nuestros agricultores y ganaderos.
+      </p>
+    
+      <p class="myMargin">
+        Además de esto, parte de nuestras ganancias van hacia nuestros ganaderos y sus familias.
+      </p>
+      <p></p>
+</body>
+  

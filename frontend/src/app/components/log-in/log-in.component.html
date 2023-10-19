@@ -1,0 +1,21 @@
+<div class="bg-area">
+    <p>
+    </p>
+    <form formGroup="miFormulario" (ngSubmit)="mySubmit()">
+        <div class="container">
+            <h1>Username</h1>
+            <input type="text" name="username" class="input-box" id="user">
+        </div>
+        <br><br><br><br><br>
+        <div class="container mymargin">
+            <h1>Password</h1>
+            <input type="password" name="username" class="input-box" id="pswd">
+            <a href="/register"><p>Registrarse</p></a>
+        </div>   
+        <div class="boton-container separacionBtn">
+            <button type="submit" class="boton" (click)="mySubmit()">
+            <span class="boton-texto">Log in</span>
+            </button>
+            </div>
+        </form>
+</div>

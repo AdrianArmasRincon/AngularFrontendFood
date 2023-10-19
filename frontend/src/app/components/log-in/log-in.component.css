@@ -1,0 +1,112 @@
+img{
+    width: 75px;
+    height: 35px;
+}
+
+p{
+    margin-left: 3%;
+    font-size: 12;
+    font-family: 'lexend', sans-serif, bold;
+    color: #FC8C23 !important;
+}
+
+div {
+    position: absolute;
+    margin-right: -1%; /* Cambiar margin-left a margin-right */
+    right: 0; /* Alinea el div a la derecha */
+    
+  }
+
+h1{
+    color: #FC8C23 !important;
+    display: flex;
+    margin-left: -40%;
+    justify-content: center;
+}
+
+.bg-area{
+    background-color: #2B2E4A !important;
+    width: 260px;
+    height: 250px;
+}
+
+.input-box {
+    width: 173px;
+    height: 26px;
+    background-color: #D9D9D9 !important;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    outline: none; 
+    margin-top: -10%;
+}
+
+div.mymargin{
+    margin-top: -10%;
+}
+
+.container{
+    margin-top: -5%;
+   margin-right: 10%;
+}
+
+.mybtn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  
+.boton-container {
+    position: absolute;
+    width: 87px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 7%;
+}
+
+/* Estilos para el botón */
+.boton {
+    width: 100%;
+    height: 100%;
+    background: #D9D9D9 !important;
+    border-radius: 999px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 18px;
+    gap: 8px;
+}
+
+/* Estilos para el texto del botón */
+.boton-texto {
+    width: 51px;
+    height: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FC8C23 !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+}
+
+
+.marginmod{
+    margin-top: 20%;
+}
+
+
+
+.separacionBtn{
+    margin-top: 35%;
+    margin-right: 30%;
+}

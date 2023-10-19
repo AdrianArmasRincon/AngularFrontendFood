@@ -1,0 +1,49 @@
+<app-custom-header></app-custom-header> 
+<body>
+    <br>
+    <h1>Como llegar</h1>
+
+    <h2>¿Dónde estamos?</h2>
+
+    <p>Estamos en Industrial José Sánchez 
+        Peñate, s/n, 35001 Las Palmas de Gran 
+        Canaria, Las Palmas. 
+    </p>
+
+    <a>
+        <img src="../../../assets/img/dndestamos.PNG">
+    </a>
+
+    <p>Estamos al lado del CC Las Arenas y 
+        hay diversos trans portes públicos que 
+        llegan a la zona. Así como, un 
+        aparcamiento privado cercano
+    </p>
+
+    <h1>Hacer una reserva:</h1>
+
+    <div>
+        <div>
+          <h2>Día: <span class="separador"></span> Hora:</h2>
+        </div>
+        <form formGroup="miFormulario" (ngSubmit)="onSubmit2()">
+          <div>
+            <input type="number" class="rectangle" formControlName="day" max="31" min="1" id="dia" required>
+            <input type="time" class="rectangle separacion" formControlName="hour" id="hora" required>
+          </div>
+        
+          <div class="boton-container separacionBtn">
+            <button type="submit" class="button" (click)="onSubmit2()">
+              <span class="boton-texto">Reservar</span>
+            </button>
+            <div class="button separacion">
+              <a routerLink="/antiguasreservas">
+                <span class="boton-texto">Antiguas reservas</span>
+              </a>
+            </div>
+          </div>
+        </form>
+        
+
+      </div>
+</body>

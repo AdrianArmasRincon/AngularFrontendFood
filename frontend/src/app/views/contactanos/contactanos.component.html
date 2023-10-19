@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+<br><br><br><br><br>
+<form formGroup="miFormulario" (ngSubmit)="mySubmit()">
+    <h1>Name:</h1>
+    <input type="text" formControlName="name" id="name" class="rectangle" required>
+    <br><br>
+    <h1>Email:</h1>
+    <input type="email" formControlName="email" id="email"  class="rectangle" required>
+    <br><br>
+    <h1>Message:</h1>
+    <textarea formControlName="message" class="rectangle2" rows="5" id="message"  required></textarea>
+    
+    <button type="submit" class="small-button button" (click)="mySubmit()">
+        <span class="get-it">Contáctanos</span>
+    </button>
+</form>

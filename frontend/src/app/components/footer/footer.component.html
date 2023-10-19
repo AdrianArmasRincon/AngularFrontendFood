@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/frontend/src/assets/css/your-styles.css">
+</head>
+
+
+  <!-- Footer Section -->
+  <footer class="app-footer myBg">
+    <!-- Left Menu -->
+    <div>
+      <p>
+        <a routerLink="/sobrenosotros">Sobre nosotros</a>
+        <br>
+        &copy; 2023
+      </p>
+    </div>
+    <!-- Middle Logo -->
+    <div>
+      <a routerLink="/home">
+        <img src="../../../assets/img/logo.PNG" alt="logo" class="applogo" />
+      </a>
+    </div>
+    <!-- Dark mode Button -->
+    <div>
+      <img [src]="isDarkMode ? '../../../assets/img/dmbg.png' : '../../../assets/img/dmbg.png'" (click)="toggleMode()">
+    </div>
+  </footer>
+
+
+</html>
+
