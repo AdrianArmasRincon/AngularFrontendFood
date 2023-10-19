@@ -109,6 +109,6 @@ If you wish to contribute to the ProyectoAppComida project, we welcome collabora
 ### Contact
 Adrian Armas -  adrianyaredarmasdelanuez@alumno.ieselrincon.es
 
-Project Link: [https://github.com/AdrianArmasRincon/IonicSpringBooks.git](https://github.com/AdrianArmasRincon/IonicSpringBooks.git)
+Project Link: [https://github.com/AdrianArmasRincon/AngularFrontendFood.git](https://github.com/AdrianArmasRincon/AngularFrontendFood.git)
 
 Thank you for using ProyectoAppComida!
